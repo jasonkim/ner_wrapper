@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   # certain versions of rjb do not work
-  s.add_runtime_dependency("rjb", ["1.3.0"])
+  s.add_runtime_dependency("rjb", ["1.3.2"])
   s.add_runtime_dependency("nokogiri", ["~> 1.4.4"])
   
   s.add_development_dependency("shoulda-context")
