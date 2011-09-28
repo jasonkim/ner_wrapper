@@ -1,3 +1,7 @@
+DOWNLOAD STANFORD NER
+http://nlp.stanford.edu/software/CRF-NER.shtml
+
+TO RUN IT
 Need to set NER_JAR_PATH and CLASSIFIER_FILE constants/env var set
 To simply get the hash back with classified words, call NER.classify("test string")
 NER.labels will return all possible classification
